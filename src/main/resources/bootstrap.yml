@@ -1,0 +1,7 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:local}
+  application:
+    name: sharding-sphere-demo
